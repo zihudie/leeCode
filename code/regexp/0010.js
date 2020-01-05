@@ -13,7 +13,7 @@ export default (s, p) => {
     }
     var match = false
 
-    if (s.length > 0 && (s[0] == = p[0] || p[0] === '.')) {
+    if (s.length > 0 && (s[0] === p[0] || p[0] === '.')) {
       match = true
     }
     // 有模式
